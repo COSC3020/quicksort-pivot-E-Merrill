@@ -28,7 +28,7 @@ More specifically, the first $\frac{n}{4}$ elements and the elements over $\frac
 pivots. Since the first and last quarters are 'bad,' the middle two quarters would be 'good,' giving a 50% chance  
 of finding a good pivot when just choosing randomly.  
 
-The median of three method is batter because it gives higher odds of picking a good pivot when choosing one.  
+The median of three method is better because it gives higher odds of picking a good pivot when choosing one.  
 
 Choosing 3 items randomly from the whole array, each item has two 'states' in this case: good or bad pivot.  
 3 items with 2 states nets $2^3 = 8$ possible combinations. The possible combinations are as follows:  
