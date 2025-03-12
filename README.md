@@ -69,14 +69,10 @@ item/index of those three will always be a good pivot, no matter what is done. S
 
 ### 2 bads, 1 good
 
-When two of the randomly chosen pivots are bad, the order in which they are chosen can matter, making there technically be 4 cases here, rather  
-than the 3 mentioned earlier. It also matters which side of the array the pivots came from.  
-When two bad pivots are taken from the left quarter of the array, then the median of the three total will be bad. The same  
-goes for the if both bad pivots are taken from the right quarter of the array. The order for these two cases doesn't really matter; the chosen pivot will be bad.  
-When the two bad pivots are taken from opposite quarters of the array, one can be chosen before the other (i.e. bad from the right first, then from the left.)  
-This introduces two 'new' cases: $B_{L}GB_{R}$ and $B_{R}GB_{L}$  
-While these are two distinct cases, they are functionally both the same: the pivot will be good, since the median of the three will end up  
-being the good pivot.  
+When two of the randomly chosen pivots are bad, the order in which they are chosen can matter, making there technically be 4 cases here, rather than the 3 mentioned earlier. It also matters which side of the array the pivots came from.  
+When two bad pivots are taken from the left quarter of the array, then the median of the three total will be bad. The same goes for the if both bad pivots are taken from the right quarter of the array. The order for these two cases doesn't really matter; the chosen pivot will be bad.  
+When the two bad pivots are taken from opposite quarters of the array, one can be chosen before the other (i.e. bad from the right first, then from the left.) This introduces two 'new' cases: $B_{L}GB_{R}$ and $B_{R}GB_{L}$  
+While these are two distinct cases, they are functionally both the same: the pivot will be good, since the median of the three will end up being the good pivot.  
 Thus, out of the four cases from 2 bad pivots and one good pivot, two will end up having a good pivot, and two will end up having a bad pivot.  
 Therefore, the odds of getting a good pivot from the case of 2 bads, 1 good is $\frac{1}{2}$  
 
